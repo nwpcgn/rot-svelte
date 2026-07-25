@@ -1,0 +1,47 @@
+[
+	{
+		"href": "/",
+		"name": "Lobby",
+		"icon": "icon-home",
+		"hidden": false,
+		"slug": "lobby",
+		"position": 1,
+		"ebene": 1
+	},
+	{
+		"href": "/kitchen",
+		"name": "Dungeon",
+		"icon": "icon-community",
+		"hidden": false,
+		"slug": "dungeon",
+		"position": 2,
+		"ebene": 1
+	},
+	{
+		"href": "/views",
+		"name": "Arena",
+		"icon": "icon-building",
+		"hidden": false,
+		"slug": "arena",
+		"position": 3,
+		"ebene": 1
+	},
+	{
+		"href": "/views/sub1",
+		"name": "Battle",
+		"icon": "icon-sword",
+		"hidden": true,
+		"slug": "battle",
+		"position": 4,
+		"ebene": 3
+	},
+	{
+		"href": "/views/sub2",
+		"name": "Settings",
+		"icon": "icon-bank",
+		"hidden": true,
+		"slug": "settings",
+		"position": 5,
+		"ebene": 3
+	}
+]

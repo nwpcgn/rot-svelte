@@ -1,0 +1,110 @@
+[
+	{
+		"slug": "anne",
+		"img": "https://i.imgur.com/JGHVwT8.png",
+		"width": 250,
+		"height": 448,
+		"name": "Anne",
+		"info": "In Batman Hush half Catwoman Batman bei der Loesung eines mysterioesen Falls und bewies dabei dass sie trotz ihres Rufes als Diebin eine moralische Seite hat.",
+		"steps": 4
+	},
+	{
+		"slug": "army",
+		"img": "https://i.imgur.com/ePfntfn.png",
+		"width": 250,
+		"height": 448,
+		"name": "Army",
+		"info": "In Mad Love stUerzte sich Harley Quinn aus Liebe zum Joker in eine giftige Chemikalienlache und wurde dadurch zu der durchgeknallten Schurkin die sie heute ist.",
+		"steps": 4
+	},
+	{
+		"slug": "asmodina",
+		"img": "https://i.imgur.com/ZcT4hon.png",
+		"width": 250,
+		"height": 448,
+		"name": "Asmodina",
+		"info": "In Batman The Long Halloween half Poison Ivy Batman bei der Loesung eines Mordfalls und zeigte dabei ihre komplexen Motive und Loyalitaeten.",
+		"steps": 4
+	},
+	{
+		"slug": "comtess",
+		"img": "https://i.imgur.com/jttrpoL.png",
+		"width": 250,
+		"height": 448,
+		"name": "Comtess",
+		"info": "In New X-Men 139 zeigte Emma Frost ihre heldenhafte Seite als sie den X-Men half einen Angriff der Sentinels abzuwehren obwohl sie zuvor oft als Schurkin agierte.",
+		"steps": 4
+	},
+	{
+		"slug": "dolly",
+		"img": "https://i.imgur.com/L3Xf0Sa.png",
+		"width": 250,
+		"height": 448,
+		"name": "Dolly",
+		"info": "In X-Men Days of Future Past half Mystique dabei eine dystopische Zukunft zu verhindern indem sie den Praesidenten vor einem Attentat rettete und dadurch als eine Art Anti-Heldin fungierte.",
+		"steps": 4
+	},
+	{
+		"slug": "jenny",
+		"img": "https://i.imgur.com/BzOfPQC.png",
+		"width": 250,
+		"height": 448,
+		"name": "Jenny",
+		"info": "In Marvel Comics Presents 1 half Catwoman Wolverine bei der Bekaempfung einer Bedrohung und bewies dabei dass sie manchmal auf der Seite der Helden stehen kann.",
+		"steps": 4
+	},
+	{
+		"slug": "lara",
+		"img": "https://i.imgur.com/8TPkhxR.png",
+		"width": 250,
+		"height": 448,
+		"name": "Lara",
+		"info": "In der TV-Serie Gotham half Selina Kyle die oft als Catwoman bekannt ist dem jungen Bruce Wayne bei der Bekaempfung von Verbrechen und der Aufklaerung von Geheimnissen in Gotham City.",
+		"steps": 4
+	},
+	{
+		"slug": "maid",
+		"img": "https://i.imgur.com/PFemIKC.png",
+		"width": 250,
+		"height": 448,
+		"name": "Maid",
+		"info": "In Elektra Assassin zeigte Elektra ihre komplexe Natur als sie zwischen Heldentum und Schurkerei hin und her gerissen wurde und schliesslich die Welt vor einer nuklearen Bedrohung rettete.",
+		"steps": 4
+	},
+	{
+		"slug": "office",
+		"img": "https://i.imgur.com/MbQhbiV.png",
+		"width": 250,
+		"height": 448,
+		"name": "Office",
+		"info": "In Teen Titans 34 half Ravager den Teen Titans bei der Rettung von unschuldigen Zivilisten und zeigte dabei dass sie trotz ihrer Vergangenheit als Schurkin ein gewisses Mass an Heldentum hat.",
+		"steps": 4
+	},
+	{
+		"slug": "pink",
+		"img": "https://i.imgur.com/06MVQ8X.png",
+		"width": 250,
+		"height": 448,
+		"name": "Pink",
+		"info": "In Batman Incorporated half Talia al Ghul Batman dabei den Kampf gegen das Verbrechen weltweit zu intensivieren und zu koordinieren obwohl ihre Ziele oft mit denen Batmans kollidieren.",
+		"steps": 4
+	},
+	{
+		"slug": "privat",
+		"img": "https://i.imgur.com/yYRJCfg.png",
+		"width": 250,
+		"height": 448,
+		"name": "Privat",
+		"info": "In einem der berUehmtesten Comics Wonder Woman 219 besiegte Diana Superman im Kampf indem sie seine immense Kraft gegen ihn selbst ausspielte was zeigte dass ihre Weisheit und Kampffaehigkeiten ihren Kraeften ebenbUertig sind.",
+		"steps": 4
+	},
+	{
+		"slug": "tanja",
+		"img": "https://i.imgur.com/ALyQ3ls.png",
+		"width": 250,
+		"height": 448,
+		"name": "Tanja",
+		"info": "In Captain Marvel 34 waehrend des Kree-Skrull-Krieges absorbierte Carol Danvers genug Energie um einen Planeten zu beleuchten und rettete damit eine ganze Rasse vor der Zerstoerung.",
+		"steps": 4
+	}
+]

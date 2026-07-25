@@ -1,0 +1,162 @@
+[
+	{
+		"location": "The Dysprosium Mines of Artano",
+		"name": "Karie Soner",
+		"ship": "Errant of Oron",
+		"planet": "Ningizzida",
+		"droid": "067-1",
+		"avatar": "https://i.imgur.com/7hlTRob.png"
+	},
+	{
+		"location": "The Plasma Fountain of New Titania",
+		"name": "Beccia Rezal",
+		"ship": "Explorer",
+		"planet": "Bani Coli",
+		"droid": "0-H5S",
+		"avatar": "https://i.imgur.com/Jv8yR96.png"
+	},
+	{
+		"location": "The Floating Monolith of New Lemuria",
+		"name": "Roby Bellee",
+		"ship": "Solar Explorer",
+		"planet": "New Mojave",
+		"droid": "4-40I",
+		"avatar": "https://i.imgur.com/AMQvgU2.png"
+	},
+	{
+		"location": "The Meeha Military Base on Inor",
+		"name": "Jessa Rice",
+		"ship": "Stellar Enterprise",
+		"planet": "New France",
+		"droid": "G2-55",
+		"avatar": "https://i.imgur.com/iczJ0Xd.png"
+	},
+	{
+		"location": "The Barki Station orbiting Amenhotep",
+		"name": "Pamy Mitchy",
+		"ship": "Irregular of Cheyange",
+		"planet": "Telmun IV",
+		"droid": "29-4",
+		"avatar": "https://i.imgur.com/LISNKlE.png"
+	},
+	{
+		"location": "The Proni Crystal Mines of New London",
+		"name": "Rona Tayly",
+		"ship": "Sykiee Trader",
+		"planet": "6874 Quadrati VI",
+		"droid": "AOP-C",
+		"avatar": "https://i.imgur.com/EUozNPd.png"
+	},
+	{
+		"location": "The Baja Crystal Refinery on 1414 Ashadha Prime",
+		"name": "Mara Hardson",
+		"ship": "Solar Flame",
+		"planet": "Clotho",
+		"droid": "A-50",
+		"avatar": "https://i.imgur.com/TSrwZiO.png"
+	},
+	{
+		"location": "The Hanging Gardens of New Babylon",
+		"name": "Cesa Murphy",
+		"ship": "Radi Wanderer",
+		"planet": "Ilya-Muromets IV",
+		"droid": "F-03",
+		"avatar": "https://i.imgur.com/7ETMeFW.png"
+	},
+	{
+		"location": "The Bacia Station orbiting Anin",
+		"name": "Ruby Sandiaz",
+		"ship": "Bastion of Viltri",
+		"planet": "Cr'Ohrar",
+		"droid": "10-2M",
+		"avatar": "https://i.imgur.com/XQmdeJJ.png"
+	},
+	{
+		"location": "The Alien Stele of Spakly Cale",
+		"name": "Loise Phezal",
+		"ship": "Renown of Utasc",
+		"planet": "Gibil",
+		"droid": "8G-S7",
+		"avatar": "https://i.imgur.com/y7RGw2f.png"
+	},
+	{
+		"location": "The Kreesha Station orbiting Andon's Planet",
+		"name": "Atthes Prezal",
+		"ship": "Movi Cruiser",
+		"planet": "Tevse III",
+		"droid": "2U-KL",
+		"avatar": "https://i.imgur.com/jv12fzC.png"
+	},
+	{
+		"location": "The Cobalt Refinery on M'Benza",
+		"name": "Sephua Carte",
+		"ship": "Stellar Constellation",
+		"planet": "Liu-Hai",
+		"droid": "A42-V",
+		"avatar": "https://i.imgur.com/5j0CvdW.png"
+	},
+	{
+		"location": "The Tarko Spaceport on Morthri VI",
+		"name": "Billie Lera",
+		"ship": "Salou Heavy",
+		"planet": "Cani S'Baaly's Planet",
+		"droid": "1-3U",
+		"avatar": "https://i.imgur.com/kuktCUw.png"
+	},
+	{
+		"location": "The Living Highlands of Jemhua Mishi",
+		"name": "Naldy Hite",
+		"ship": "Revenge",
+		"planet": "Ishtar",
+		"droid": "W-TVU",
+		"avatar": "https://i.imgur.com/yTxKoTg.png"
+	},
+	{
+		"location": "The Cheecha Terraforming Complex on D'Anid",
+		"name": "Jose Risand",
+		"ship": "Astral Pioneer",
+		"planet": "New Amazon",
+		"droid": "84-6",
+		"avatar": "https://i.imgur.com/6I4W6lc.png"
+	},
+	{
+		"location": "The Talou Research Facility on Zachua Atten",
+		"name": "Stophy Monson",
+		"ship": "Yuri Gagarin",
+		"planet": "Waldi Menaii's Planet",
+		"droid": "O-4V",
+		"avatar": "https://i.imgur.com/A7h3Cjm.png"
+	},
+	{
+		"location": "The Beri Military Station orbiting Brada Prime",
+		"name": "Aaron Patte",
+		"ship": "Hammer of Droni",
+		"planet": "Mini's Planet",
+		"droid": "2Q5-6",
+		"avatar": "https://i.imgur.com/YTtc57o.png"
+	},
+	{
+		"location": "The Shattered Moon of Skoll",
+		"name": "Griane Belley",
+		"ship": "Celestial Enterprise",
+		"planet": "Goni's Planet",
+		"droid": "9-3YQ",
+		"avatar": "https://i.imgur.com/xsnciVX.png"
+	},
+	{
+		"location": "The Hona Industrial Station orbiting 8144 Hydrae VII",
+		"name": "Wayny Mitchy",
+		"ship": "Profit Margin",
+		"planet": "Yeerur V",
+		"droid": "8-W5",
+		"avatar": "https://i.imgur.com/L28bord.png"
+	},
+	{
+		"location": "The Delva Research Facility on 1548 Volantis Prime",
+		"name": "Jesse Ackson",
+		"ship": "Janie's Freedom",
+		"planet": "Xi-Wang-Mu",
+		"droid": "8-44",
+		"avatar": "https://i.imgur.com/Jv8yR96.png"
+	}
+]
