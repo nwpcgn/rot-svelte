@@ -24,16 +24,8 @@ export const ITEM_TYPES: Record<string, Item> = {
 		char: '/',
 		color: '#94a3b8',
 		effect: 'atk',
-		value: 4,
-		desc: '+4 Angriff (diese Etage).'
-	},
-	SHIELD: {
-		name: 'Schild',
-		char: 'D',
-		color: '#94a3b8',
-		effect: 'def',
-		value: 2,
-		desc: '+2 Verteidigung (diese Etage).'
+		value: 5,
+		desc: '+5 Angriff (diese Etage).'
 	},
 	GOLD: {
 		name: 'Gold',
@@ -41,7 +33,7 @@ export const ITEM_TYPES: Record<string, Item> = {
 		color: '#fbbf24',
 		effect: 'hp',
 		value: 10,
-		desc: '10 Health gekauft.'
+		desc: '10 Goldmünzen.'
 	}
 }
 
@@ -65,6 +57,7 @@ export function useItem(item: Item, player: Player): string {
 			player.stats.def += item.value
 			return `${item.name} ausgerüstet → +${item.value} DEF`
 		case 'gold':
+			const gained = heal(player, item.value)
 			return `${item.name} eingesammelt → +${item.value} Gold`
 		default:
 			return `${item.name} benutzt.`

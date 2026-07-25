@@ -48,26 +48,7 @@
 		inventory: []
 	})
 
-	let tabs = $derived([
-		{
-			slug: 'map',
-			name: 'Map',
-			title: `Dungeon (${MAP_WIDTH}/${MAP_HEIGHT})`,
-			snippet: dungeonT
-		},
-		{
-			slug: 'items',
-			name: 'Items',
-			title: `Inventar (${player.inventory.length})`,
-			snippet: inventoryT
-		},
-		{
-			slug: 'player',
-			name: 'Player',
-			title: `Hero (${player.stats.hp}/${player.stats.maxHp})`,
-			snippet: heroT
-		}
-	])
+
 
 	let roomList: Room[] = $state([])
 	let exit: Position = $state({ x: 0, y: 0 })
@@ -401,69 +382,51 @@
 	</div>
 {/snippet}
 {#snippet dungeonT()}
-	<div class="w-[300px] bg-base-100 text-base-content">
-		<header class="padded bg-neutral text-neutral-content">Dungeon</header>
-		<div class="list">
-			<div class="list-row">
-				<span class="list-col-grow">MW</span>
-				<span>{MAP_WIDTH}</span>
-			</div>
-			<div class="list-row">
-				<span class="list-col-grow">MH</span>
-				<span>{MAP_HEIGHT}</span>
-			</div>
-			<div class="list-row">
-				<span class="list-col-grow">TZ</span>
-				<span>{TILE_SIZE}</span>
-			</div>
-			<div class="list-row">
-				<div class="list-col-grow grid grid-cols-2 gap-2">
-					<button
-						onclick={resetGame}
-						class="btn"
-						popovertarget="pe-map"
-						popovertargetaction="hide">New</button>
-					<button
-						class="btn btn-primary"
-						popovertarget="pe-map"
-						popovertargetaction="hide">Options</button>
-				</div>
+	<div class="list">
+		<div class="list-row">
+			<span class="list-col-grow">MW</span>
+			<span>{MAP_WIDTH}</span>
+		</div>
+		<div class="list-row">
+			<span class="list-col-grow">MH</span>
+			<span>{MAP_HEIGHT}</span>
+		</div>
+		<div class="list-row">
+			<span class="list-col-grow">TZ</span>
+			<span>{TILE_SIZE}</span>
+		</div>
+		<div class="list-row">
+			<div class="list-col-grow grid grid-cols-2 gap-2">
+				<button
+					onclick={resetGame}
+					class="btn"
+					popovertarget="pe-map"
+					popovertargetaction="hide">New</button>
+				<button
+					class="btn btn-primary"
+					popovertarget="pe-map"
+					popovertargetaction="hide">Options</button>
 			</div>
 		</div>
 	</div>
 {/snippet}
 {#snippet heroT()}
-	<div class="w-[300px] bg-base-100 text-base-content">
-		<header class="padded bg-neutral text-neutral-content">Hero</header>
-		<div class="list">
-			<div class="list-row">
-				<span class="list-col-grow">Fighter</span>
-				<span>{player.name}</span>
-			</div>
-			<div class="list-row">
-				<span class="list-col-grow">HP/Max</span>
-				<span>{player.stats.hp}/{player.stats.maxHp}</span>
-			</div>
-			<div class="list-row">
-				<span class="list-col-grow">AT/DE</span>
-				<span>{player?.stats?.atk}/{player?.stats?.def}</span>
-			</div>
-			<div class="list-row">
-				<span class="list-col-grow">Position</span>
-				<span>{player?.pos?.x}/{player?.pos?.y}</span>
-			</div>
-			<div class="list-row">
-				<div class="list-col-grow grid grid-cols-2 gap-2">
-					<button
-						class="btn"
-						popovertarget="pe-player"
-						popovertargetaction="hide">Edit</button>
-					<button
-						class="btn btn-error"
-						popovertarget="pe-player"
-						popovertargetaction="hide">Close</button>
-				</div>
-			</div>
+	<div class="list">
+		<div class="list-row">
+			<span class="list-col-grow">Fighter</span>
+			<span>{player.name}</span>
+		</div>
+		<div class="list-row">
+			<span class="list-col-grow">HP/Max</span>
+			<span>{player.stats.hp}/{player.stats.maxHp}</span>
+		</div>
+		<div class="list-row">
+			<span class="list-col-grow">AT/DE</span>
+			<span>{player?.stats?.atk}/{player?.stats?.def}</span>
+		</div>
+		<div class="list-row">
+			<span class="list-col-grow">Position</span>
+			<span>{player?.pos?.x}/{player?.pos?.y}</span>
 		</div>
 	</div>
 {/snippet}
@@ -471,26 +434,7 @@
 	<article>
 		<!-- HP-Anzeige über dem Spielfeld -->
 
-		<header class="grid grid-cols-3 gap-4">
-			{#each tabs as { slug, name, title, snippet } (slug)}
-				<button popovertarget="pe-{slug}" class="btn">{title}</button>
-
-				<div popover class="positionedElement" id="pe-{slug}">
-					{#if snippet}
-						{@render snippet?.()}
-					{:else}
-						<div class="w-[300px] bg-base-200 text-base-content">
-							<header class="bg-neutral px-2 py-1 text-neutral-content">
-								{name}
-							</header>
-							<div class="split px-2 py-1">
-								{title}
-							</div>
-						</div>
-					{/if}
-				</div>
-			{/each}
-		</header>
+	
 		<div>Items: {itemsOnMap} Enemies: {enemies.length}</div>
 	</article>
 
@@ -525,7 +469,37 @@
 		<Preview {exit} {map} {explored} {player}></Preview>
 	</div>
 
-	{@render heroT()}
+	<!-- buttons -->
+	<div class="space-y-2">
+		<details
+			class="collapse border border-base-300 bg-base-100"
+			name="my-accordion-det-1">
+			<summary class="collapse-title font-semibold">Map</summary>
+			<div class="collapse-content p-0">
+				{@render dungeonT()}
+			</div>
+		</details>
+		<details
+			class="collapse border border-base-300 bg-base-100"
+			name="my-accordion-det-1">
+			<summary class="collapse-title font-semibold">Inventar</summary>
+			<div class="collapse-content p-0">
+				<Inventory
+					inventory={player.inventory}
+					onUse={onUseItem}
+					onDrop={onDropItem} />
+			</div>
+		</details>
+		<details
+			class="collapse border border-base-300 bg-base-100"
+			name="my-accordion-det-1"
+			open>
+			<summary class="collapse-title font-semibold">Hero</summary>
+			<div class="collapse-content p-0">
+				{@render heroT()}
+			</div>
+		</details>
+	</div>
 </aside>
 
 <!-- 	<aside class="aside bg-base-300">

@@ -219,7 +219,7 @@
 
 	function newGame(): void {
 		if (playerBalance <= 0) {
-			playerBalance = 1000
+			playerBalance = 100
 			message = 'Balance restored! Place your bet.'
 		} else {
 			message = 'Place your bet to start'
