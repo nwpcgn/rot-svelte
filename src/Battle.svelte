@@ -228,10 +228,9 @@
 						value={time} />
 				</div>
 				<div class="nav" style="--fs: 32px;">
-					<Swap on="icon-audio" off="icon-audio-off" bind:checked={muted}></Swap>
+					<Swap on="icon-audio" off="icon-audio-off" bind:checked={muted}
+					></Swap>
 
-
-					
 					<Swap on="icon-play" off="icon-pause" bind:checked={paused}></Swap>
 				</div>
 				{#if videoLoaded}

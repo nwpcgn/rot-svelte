@@ -48,8 +48,6 @@
 		inventory: []
 	})
 
-
-
 	let roomList: Room[] = $state([])
 	let exit: Position = $state({ x: 0, y: 0 })
 
@@ -434,7 +432,6 @@
 	<article>
 		<!-- HP-Anzeige über dem Spielfeld -->
 
-	
 		<div>Items: {itemsOnMap} Enemies: {enemies.length}</div>
 	</article>
 

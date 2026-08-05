@@ -1,5 +1,9 @@
 <script lang="ts">
-	let { on = 'icon-audio', off = 'icon-audio-off', checked = $bindable() } = $props()
+	let {
+		on = 'icon-audio',
+		off = 'icon-audio-off',
+		checked = $bindable()
+	} = $props()
 
 	const handleToggle = () => {
 		// console.log('handleToggle', checked)
